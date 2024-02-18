@@ -24,13 +24,16 @@ cardButton.addEventListener('click', function() {
 });*/
 
 
-const cardBtns = document.querySelectorAll(".card-btn");
+document.addEventListener("DOMContentLoaded", function() {
+  const cardBtns = document.querySelectorAll(".card-btn");
 
-cardBtns.forEach(btn => {
-  btn.addEventListener("click", function() {
-    throw new Error("Це намірене викликання помилки для тестування.");
+  cardBtns.forEach(btn => {
+    btn.addEventListener("click", function() {
+      throw new Error("Це намірене викликання помилки для тестування.");
+    });
   });
 });
+
 
 
 
