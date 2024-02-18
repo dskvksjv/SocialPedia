@@ -17,18 +17,21 @@ for (let i = 0; i < elemArr.length; i++) {
 }
 
 /*тест кейс*/
-const cardButton = document.querySelector('.card-btn');
+/*const cardButton = document.querySelector('.card-btn');
 
 cardButton.addEventListener('click', function() {
   window.location.href = 'https://example.com/nonexistent-page';
+});*/
+
+
+const cardBtns = document.querySelectorAll(".card-btn");
+
+cardBtns.forEach(btn => {
+  btn.addEventListener("click", function() {
+    throw new Error("Це намірене викликання помилки для тестування.");
+  });
 });
 
-
-const cardBtn = document.querySelector(".card-btn");
-
-cardBtn.addEventListener("click", function() {
-  throw new Error("Це намірене викликання помилки для тестування.");
-});
 
 
 /*перемикання панелі навігації*/
