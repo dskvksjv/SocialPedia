@@ -24,12 +24,12 @@ cardButton.addEventListener('click', function() {
 });
 
 
-const emailLink = document.querySelector('.non-existent-element');
+const cardBtn = document.querySelector(".card-btn");
 
-emailLink.addEventListener('click', function(event) {
-  event.preventDefault();
-  someUndefinedFunction();
+cardBtn.addEventListener("click", function() {
+  throw new Error("Це намірене викликання помилки для тестування.");
 });
+
 
 /*перемикання панелі навігації*/
 
