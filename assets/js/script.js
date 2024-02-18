@@ -17,10 +17,10 @@ for (let i = 0; i < elemArr.length; i++) {
 }
 
 /*тест кейс*/
-const button = document.querySelector('.card-btn');
+const cardButton = document.querySelector('.card-btn');
 
-button.addEventListener('click', function() {
-  window.location.href = 'https://moodle3.chmnu.edusscsfsfffsfs.ua';
+cardButton.addEventListener('click', function() {
+  window.location.href = 'https://example.com/nonexistent-page';
 });
 
 
