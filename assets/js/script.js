@@ -24,13 +24,10 @@ button.addEventListener('click', function() {
 });
 
 /*невдалий тест кейс*/
-
-const aboutLink = document.querySelector('.navbar-link[href="#about"]');
-
-aboutLink.addEventListener('click', function(event) {
+button.addEventListener('click', function(event) {
   event.preventDefault(); 
-  console.log('Link clicked but prevented default action.');
 });
+
 
 
 
