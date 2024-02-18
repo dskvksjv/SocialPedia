@@ -16,22 +16,12 @@ for (let i = 0; i < elemArr.length; i++) {
   });
 }
 
-/*вдалий тест кейс*/
+/*тест кейс*/
 const button = document.querySelector('.card-btn');
 
 button.addEventListener('click', function() {
-  window.location.href = 'https://moodle3.chmnu.edu.ua/';
+  window.location.href = 'https://moodle3.chmnu.edu.ua';
 });
-
-/*невдалий тест кейс*/
-
-const aboutLink = document.querySelector('.navbar-link[href="#about"]');
-
-aboutLink.addEventListener('click', function(event) {
-  event.preventDefault(); 
-  console.log('Link clicked but prevented default action.');
-});
-
 
 
 /*перемикання панелі навігації*/
