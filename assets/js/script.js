@@ -24,6 +24,13 @@ cardButton.addEventListener('click', function() {
 });
 
 
+const emailLink = document.querySelector('.non-existent-element');
+
+emailLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  someUndefinedFunction();
+});
+
 /*перемикання панелі навігації*/
 
 const navbarLinks = document.querySelectorAll("[data-navbar-link]");
