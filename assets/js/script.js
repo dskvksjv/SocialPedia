@@ -20,7 +20,7 @@ for (let i = 0; i < elemArr.length; i++) {
 const button = document.querySelector('.card-btn');
 
 button.addEventListener('click', function() {
-  window.location.href = 'https://moodle3.chmnu.edu.ua';
+  window.location.href = 'https://moodle3.chmnu.edusscsfsfffsfs.ua';
 });
 
 
